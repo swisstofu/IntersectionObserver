@@ -26,8 +26,9 @@ if ('IntersectionObserver' in window &&
         return this.intersectionRatio > 0;
       }
     });
+  } else {
+    return;
   }
-  return;
 }
 
 
